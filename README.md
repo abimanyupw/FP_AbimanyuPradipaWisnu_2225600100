@@ -11,7 +11,7 @@
 
 ## Dataset
 - Jumlah foto asli: 74 foto (tanpa augmentasi). Jumlah label (bounding box) per kelas: bottle 24, laptop 37, pencil 42.
-- Metode pengambilan foto: seluruh foto diambil sendiri dengan kamera HP, dengan variasi jarak (dekat dan jauh), sudut (atas, samping, miring), cahaya (terang dan redup), serta latar (meja, lantai, dan lainnya). Sebagian foto memuat lebih dari satu objek. [ISI/SESUAIKAN: tambahkan detail yang sebenarnya, misalnya apakah ada foto tanpa objek]
+- Metode pengambilan foto: seluruh foto diambil sendiri dengan kamera HP, dengan variasi jarak (dekat dan jauh), sudut (atas, samping, miring), cahaya (terang dan redup), serta latar (meja, lantai, dan lainnya). Sebagian foto memuat lebih dari satu objek.
 - Fitur AI labeling Roboflow yang digunakan (apabila ada) dan cara perapiannya: tidak menggunakan fitur AI labeling (Auto Label, Label Assist, maupun Box Prompting). Seluruh bounding box dibuat manual satu per satu.
 
 ## Training
